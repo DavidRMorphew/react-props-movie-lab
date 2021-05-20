@@ -4,7 +4,9 @@ export default class CardFront extends Component {
 
   render() {
     return (
-      <div className="card-front" style={{backgroundImage: `url(${this.props.posterImage})`}}>
+      
+      <div className="card-front" style={{backgroundImage: `url(${this.props.poster})`}}>
+        {console.log(this.props.poster)}
       </div>
     )
   }
